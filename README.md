@@ -30,7 +30,8 @@ sudo msfconsole
 ```bash
 search samba version command to search exploit
 ```
-Use ```bash 
+Use 
+```bash 
 exploit/linux/samba/trans2open
 ```
 
@@ -40,7 +41,7 @@ Options
 
 Use:-
 msf exploit(linux/samba/trans2open) >
- ```bash
+```bash
 set RHOST <target Ip(10.0.2.5)>
 ```
 msf exploit(linux/samba/trans2open) > 
