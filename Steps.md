@@ -59,6 +59,7 @@ msf exploit(linux/samba/trans2open) >
 ```bash 
 exploit
 ```
+
 # Congratulations, you've conquered Kioptrix Level 1!
 
 
