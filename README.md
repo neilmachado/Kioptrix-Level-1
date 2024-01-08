@@ -27,7 +27,7 @@ sudo msfconsole
 ```
 ## Then we search the vulnerability and configure options for exploitation.
 ```bash
-search samba version command to search exploit
+search samba version 
 ```
 ## Use 
 ```bash 
