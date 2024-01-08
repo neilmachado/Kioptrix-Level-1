@@ -2,7 +2,7 @@
 Join me as we embark on a journey through this virtual labyrinth, where we'll uncover vulnerabilities, exploit weaknesses, and ultimately conquer the system.
 # 1. Reconnaissance:
 ```bash
-  arp-scan -l  Or  >>sudo netdiscover
+  arp-scan -l  Or  sudo netdiscover
 ```
 ## Employed Nmap to identify open ports and services. 
 ```bash
